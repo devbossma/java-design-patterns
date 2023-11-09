@@ -1,7 +1,11 @@
 package ma.devboss;
 
+
+import ma.devboss.JDP.behevioral.observer.explication.Client;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Client.main();
     }
+
 }
