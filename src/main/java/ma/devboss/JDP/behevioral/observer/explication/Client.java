@@ -10,7 +10,9 @@ public class Client {
 
     observebal.subscribeObserver(observer1);
     observebal.subscribeObserver(observer2);
-    observebal.setStat(15);
-    observebal.setStat(20);
+    observebal.setStat(15); // stet changed
+    observebal.setStat(20); // stet changed
+    observebal.setStat(20); // stet unchanged
+    observebal.setStat(15); // stet changed
     }
 }

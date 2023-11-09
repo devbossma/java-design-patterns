@@ -12,9 +12,10 @@ public class ObservebalImpl implements ObservebalInterface {
     }
 
     public void setStat(int stat) {
-        this.stat = stat;
-        this.notifyObservers();
-
+        if (!(this.stat == stat)){
+            this.stat = stat;
+            this.notifyObservers();
+        }
     }
 
 
