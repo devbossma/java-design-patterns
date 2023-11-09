@@ -13,7 +13,5 @@ public class Client {
     observebal.setStat(15);
     observebal.setStat(20);
     observebal.setStat(30);
-
-
     }
 }
