@@ -12,8 +12,5 @@ public class Client {
     observebal.subscribeObserver(observer2);
     observebal.setStat(15);
     observebal.setStat(20);
-    observebal.setStat(30);
-
-
     }
 }
