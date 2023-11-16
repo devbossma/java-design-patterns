@@ -21,6 +21,7 @@ public class MainClient {
         System.in.read();
 
         sc1_4.getcount();
+        Singleton.getInstance().doSomething();
 
     }
 }
