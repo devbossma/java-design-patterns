@@ -13,7 +13,6 @@ public class MainClient {
         System.out.println(Arrays.toString(en2.getCoordination()));
         System.out.println(en1);
         System.out.println(en2);
-        System.out.println(en2.getEnemyType());
 
     }
 }
