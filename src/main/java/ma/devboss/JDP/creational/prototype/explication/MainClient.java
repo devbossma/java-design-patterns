@@ -1,6 +1,4 @@
 package ma.devboss.JDP.creational.prototype.explication;
-
-import java.sql.Array;
 import java.util.Arrays;
 
 public class MainClient {
