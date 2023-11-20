@@ -2,7 +2,7 @@ package ma.devboss.JDP.structural.decorator.exemple.beverage.coffee;
 
 public class Espresso extends Coffee {
 
-    private final String description= "ESPRESSO COFFEE";
+    private final String description= "ESPRESSO COFFEE ";
     private final int price = 10;
 
     @Override
